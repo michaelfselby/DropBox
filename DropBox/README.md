@@ -10,16 +10,16 @@ Time spent: `10`
 - [X] User can follow the create user flow.
   - [X] On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
   - [ ] Before creating the account, user can choose to read the terms of service.
-  - [X] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
-  - [X] User can log out from the Settings screen.
-- [X] User can follow the sign in flow.
+  - [ ] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
+  - [ ] User can log out from the Settings screen.
+- [ ] User can follow the sign in flow.
   - [ ] User can tap the area for "Having trouble signing in?".
-  - [X] User can log out from the Settings screen.
+  - [ ] User can log out from the Settings screen.
 \
 #### Optional
 
 - [ ] Add a detail view for one of the files and implement favoriting the file.
-- [X] Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
+- [ ] Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
 - [ ] You should be able to swipe through the welcome screens instead of just tapping them.
 
 #### The following **additional** features are implemented:
@@ -28,14 +28,10 @@ Time spent: `10`
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. Keyboard control
-2. Sign out without having page go to Create Account automatically/firstsegue
 
 ### Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-
-<img src='https://github.com/sdaviswalmart/DropBox/blob/master/DropBox.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
