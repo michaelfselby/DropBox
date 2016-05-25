@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB72C2B61CF3C332006EDF3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72C2B51CF3C332006EDF3C /* AppDelegate.swift */; };
+		FB72C2B81CF3C332006EDF3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72C2B71CF3C332006EDF3C /* ViewController.swift */; };
+		FB72C2BB1CF3C332006EDF3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB72C2B91CF3C332006EDF3C /* Main.storyboard */; };
+		FB72C2BD1CF3C333006EDF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB72C2BC1CF3C333006EDF3C /* Assets.xcassets */; };
+		FB72C2C01CF3C333006EDF3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB72C2BE1CF3C333006EDF3C /* LaunchScreen.storyboard */; };
+		FB72C2CB1CF3C333006EDF3C /* DropBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72C2CA1CF3C333006EDF3C /* DropBoxTests.swift */; };
+		FB72C2D61CF3C333006EDF3C /* DropBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72C2D51CF3C333006EDF3C /* DropBoxUITests.swift */; };
+		FB72C2E61CF3CC39006EDF3C /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72C2E51CF3CC39006EDF3C /* CreateAccountRootViewController.swift */; };
+		FB72C2E81CF3CD7F006EDF3C /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72C2E71CF3CD7F006EDF3C /* SignInRootViewController.swift */; };
+		FB72C2EA1CF3D098006EDF3C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72C2E91CF3D098006EDF3C /* CreateAccountViewController.swift */; };
+		FB72C2EC1CF3D0AD006EDF3C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72C2EB1CF3D0AD006EDF3C /* SignInViewController.swift */; };
+		FBC84B851CF50BDA00A95F7F /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC84B841CF50BDA00A95F7F /* TermsViewController.swift */; };
+		FBC84B871CF552C000A95F7F /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC84B861CF552C000A95F7F /* FilesViewController.swift */; };
+		FBC84B891CF552D900A95F7F /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC84B881CF552D900A95F7F /* PhotosViewController.swift */; };
+		FBC84B8B1CF552E500A95F7F /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC84B8A1CF552E500A95F7F /* FavoritesViewController.swift */; };
+		FBC84B8D1CF552EF00A95F7F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC84B8C1CF552EF00A95F7F /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB72C2C71CF3C333006EDF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB72C2AA1CF3C332006EDF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB72C2B11CF3C332006EDF3C;
+			remoteInfo = DropBox;
+		};
+		FB72C2D21CF3C333006EDF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB72C2AA1CF3C332006EDF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB72C2B11CF3C332006EDF3C;
+			remoteInfo = DropBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB72C2B21CF3C332006EDF3C /* DropBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB72C2B51CF3C332006EDF3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB72C2B71CF3C332006EDF3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB72C2BA1CF3C332006EDF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB72C2BC1CF3C333006EDF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB72C2BF1CF3C333006EDF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB72C2C11CF3C333006EDF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB72C2C61CF3C333006EDF3C /* DropBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB72C2CA1CF3C333006EDF3C /* DropBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropBoxTests.swift; sourceTree = "<group>"; };
+		FB72C2CC1CF3C333006EDF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB72C2D11CF3C333006EDF3C /* DropBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB72C2D51CF3C333006EDF3C /* DropBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropBoxUITests.swift; sourceTree = "<group>"; };
+		FB72C2D71CF3C333006EDF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB72C2E51CF3CC39006EDF3C /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		FB72C2E71CF3CD7F006EDF3C /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		FB72C2E91CF3D098006EDF3C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		FB72C2EB1CF3D0AD006EDF3C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		FBC84B841CF50BDA00A95F7F /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		FBC84B861CF552C000A95F7F /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		FBC84B881CF552D900A95F7F /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		FBC84B8A1CF552E500A95F7F /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		FBC84B8C1CF552EF00A95F7F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB72C2AF1CF3C332006EDF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB72C2C31CF3C333006EDF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB72C2CE1CF3C333006EDF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB72C2A91CF3C332006EDF3C = {
+			isa = PBXGroup;
+			children = (
+				FBC84B841CF50BDA00A95F7F /* TermsViewController.swift */,
+				FB72C2B41CF3C332006EDF3C /* DropBox */,
+				FB72C2C91CF3C333006EDF3C /* DropBoxTests */,
+				FB72C2D41CF3C333006EDF3C /* DropBoxUITests */,
+				FB72C2B31CF3C332006EDF3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB72C2B31CF3C332006EDF3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB72C2B21CF3C332006EDF3C /* DropBox.app */,
+				FB72C2C61CF3C333006EDF3C /* DropBoxTests.xctest */,
+				FB72C2D11CF3C333006EDF3C /* DropBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB72C2B41CF3C332006EDF3C /* DropBox */ = {
+			isa = PBXGroup;
+			children = (
+				FB72C2B51CF3C332006EDF3C /* AppDelegate.swift */,
+				FB72C2B71CF3C332006EDF3C /* ViewController.swift */,
+				FB72C2B91CF3C332006EDF3C /* Main.storyboard */,
+				FBC84B881CF552D900A95F7F /* PhotosViewController.swift */,
+				FBC84B8C1CF552EF00A95F7F /* SettingsViewController.swift */,
+				FBC84B8A1CF552E500A95F7F /* FavoritesViewController.swift */,
+				FBC84B861CF552C000A95F7F /* FilesViewController.swift */,
+				FB72C2EB1CF3D0AD006EDF3C /* SignInViewController.swift */,
+				FB72C2E91CF3D098006EDF3C /* CreateAccountViewController.swift */,
+				FB72C2E71CF3CD7F006EDF3C /* SignInRootViewController.swift */,
+				FB72C2E51CF3CC39006EDF3C /* CreateAccountRootViewController.swift */,
+				FB72C2BC1CF3C333006EDF3C /* Assets.xcassets */,
+				FB72C2BE1CF3C333006EDF3C /* LaunchScreen.storyboard */,
+				FB72C2C11CF3C333006EDF3C /* Info.plist */,
+			);
+			path = DropBox;
+			sourceTree = "<group>";
+		};
+		FB72C2C91CF3C333006EDF3C /* DropBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB72C2CA1CF3C333006EDF3C /* DropBoxTests.swift */,
+				FB72C2CC1CF3C333006EDF3C /* Info.plist */,
+			);
+			path = DropBoxTests;
+			sourceTree = "<group>";
+		};
+		FB72C2D41CF3C333006EDF3C /* DropBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB72C2D51CF3C333006EDF3C /* DropBoxUITests.swift */,
+				FB72C2D71CF3C333006EDF3C /* Info.plist */,
+			);
+			path = DropBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB72C2B11CF3C332006EDF3C /* DropBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB72C2DA1CF3C333006EDF3C /* Build configuration list for PBXNativeTarget "DropBox" */;
+			buildPhases = (
+				FB72C2AE1CF3C332006EDF3C /* Sources */,
+				FB72C2AF1CF3C332006EDF3C /* Frameworks */,
+				FB72C2B01CF3C332006EDF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropBox;
+			productName = DropBox;
+			productReference = FB72C2B21CF3C332006EDF3C /* DropBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB72C2C51CF3C333006EDF3C /* DropBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB72C2DD1CF3C333006EDF3C /* Build configuration list for PBXNativeTarget "DropBoxTests" */;
+			buildPhases = (
+				FB72C2C21CF3C333006EDF3C /* Sources */,
+				FB72C2C31CF3C333006EDF3C /* Frameworks */,
+				FB72C2C41CF3C333006EDF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB72C2C81CF3C333006EDF3C /* PBXTargetDependency */,
+			);
+			name = DropBoxTests;
+			productName = DropBoxTests;
+			productReference = FB72C2C61CF3C333006EDF3C /* DropBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB72C2D01CF3C333006EDF3C /* DropBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB72C2E01CF3C333006EDF3C /* Build configuration list for PBXNativeTarget "DropBoxUITests" */;
+			buildPhases = (
+				FB72C2CD1CF3C333006EDF3C /* Sources */,
+				FB72C2CE1CF3C333006EDF3C /* Frameworks */,
+				FB72C2CF1CF3C333006EDF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB72C2D31CF3C333006EDF3C /* PBXTargetDependency */,
+			);
+			name = DropBoxUITests;
+			productName = DropBoxUITests;
+			productReference = FB72C2D11CF3C333006EDF3C /* DropBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB72C2AA1CF3C332006EDF3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Michael Selby";
+				TargetAttributes = {
+					FB72C2B11CF3C332006EDF3C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C24UX4Y24J;
+					};
+					FB72C2C51CF3C333006EDF3C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C24UX4Y24J;
+						TestTargetID = FB72C2B11CF3C332006EDF3C;
+					};
+					FB72C2D01CF3C333006EDF3C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C24UX4Y24J;
+						TestTargetID = FB72C2B11CF3C332006EDF3C;
+					};
+				};
+			};
+			buildConfigurationList = FB72C2AD1CF3C332006EDF3C /* Build configuration list for PBXProject "DropBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB72C2A91CF3C332006EDF3C;
+			productRefGroup = FB72C2B31CF3C332006EDF3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB72C2B11CF3C332006EDF3C /* DropBox */,
+				FB72C2C51CF3C333006EDF3C /* DropBoxTests */,
+				FB72C2D01CF3C333006EDF3C /* DropBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB72C2B01CF3C332006EDF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB72C2C01CF3C333006EDF3C /* LaunchScreen.storyboard in Resources */,
+				FB72C2BD1CF3C333006EDF3C /* Assets.xcassets in Resources */,
+				FB72C2BB1CF3C332006EDF3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB72C2C41CF3C333006EDF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB72C2CF1CF3C333006EDF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB72C2AE1CF3C332006EDF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC84B891CF552D900A95F7F /* PhotosViewController.swift in Sources */,
+				FB72C2EA1CF3D098006EDF3C /* CreateAccountViewController.swift in Sources */,
+				FBC84B8D1CF552EF00A95F7F /* SettingsViewController.swift in Sources */,
+				FB72C2E81CF3CD7F006EDF3C /* SignInRootViewController.swift in Sources */,
+				FB72C2EC1CF3D0AD006EDF3C /* SignInViewController.swift in Sources */,
+				FB72C2E61CF3CC39006EDF3C /* CreateAccountRootViewController.swift in Sources */,
+				FB72C2B81CF3C332006EDF3C /* ViewController.swift in Sources */,
+				FB72C2B61CF3C332006EDF3C /* AppDelegate.swift in Sources */,
+				FBC84B871CF552C000A95F7F /* FilesViewController.swift in Sources */,
+				FBC84B8B1CF552E500A95F7F /* FavoritesViewController.swift in Sources */,
+				FBC84B851CF50BDA00A95F7F /* TermsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB72C2C21CF3C333006EDF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB72C2CB1CF3C333006EDF3C /* DropBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB72C2CD1CF3C333006EDF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB72C2D61CF3C333006EDF3C /* DropBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB72C2C81CF3C333006EDF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB72C2B11CF3C332006EDF3C /* DropBox */;
+			targetProxy = FB72C2C71CF3C333006EDF3C /* PBXContainerItemProxy */;
+		};
+		FB72C2D31CF3C333006EDF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB72C2B11CF3C332006EDF3C /* DropBox */;
+			targetProxy = FB72C2D21CF3C333006EDF3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB72C2B91CF3C332006EDF3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB72C2BA1CF3C332006EDF3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB72C2BE1CF3C333006EDF3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB72C2BF1CF3C333006EDF3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB72C2D81CF3C333006EDF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB72C2D91CF3C333006EDF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB72C2DB1CF3C333006EDF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.DropBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB72C2DC1CF3C333006EDF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.DropBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB72C2DE1CF3C333006EDF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.DropBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropBox.app/DropBox";
+			};
+			name = Debug;
+		};
+		FB72C2DF1CF3C333006EDF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.DropBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropBox.app/DropBox";
+			};
+			name = Release;
+		};
+		FB72C2E11CF3C333006EDF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DropBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.DropBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DropBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB72C2E21CF3C333006EDF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DropBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.DropBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DropBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB72C2AD1CF3C332006EDF3C /* Build configuration list for PBXProject "DropBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB72C2D81CF3C333006EDF3C /* Debug */,
+				FB72C2D91CF3C333006EDF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB72C2DA1CF3C333006EDF3C /* Build configuration list for PBXNativeTarget "DropBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB72C2DB1CF3C333006EDF3C /* Debug */,
+				FB72C2DC1CF3C333006EDF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB72C2DD1CF3C333006EDF3C /* Build configuration list for PBXNativeTarget "DropBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB72C2DE1CF3C333006EDF3C /* Debug */,
+				FB72C2DF1CF3C333006EDF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB72C2E01CF3C333006EDF3C /* Build configuration list for PBXNativeTarget "DropBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB72C2E11CF3C333006EDF3C /* Debug */,
+				FB72C2E21CF3C333006EDF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB72C2AA1CF3C332006EDF3C /* Project object */;
+}
